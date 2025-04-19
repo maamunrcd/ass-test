@@ -6,7 +6,7 @@ const Header = () => {
     <header className="header pt-4 md:pt-8 md:static absolute z-[10] w-full">
       <div className="container">
         <div className="flex justify-between items-center relative md:static">
-          <div className="w-full flex justify-center md:justify-start">
+          <div className="w-full md:w-auto flex justify-center md:justify-start">
             <Link href="/" className="inline-block">
               <Image
                 src="/images/logo.png"

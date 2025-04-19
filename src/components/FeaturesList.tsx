@@ -1,4 +1,5 @@
 import { FeaturesListProps } from '@/types';
+
 import FeatureItem from '@/components/FeatureItem';
 
 const FeaturesList: React.FC<FeaturesListProps> = ({ features }) => (

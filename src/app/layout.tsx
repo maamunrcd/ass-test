@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html>
+    <html lang="en">
       <body>
         <PromoBanner
           title="FRESH BEGINNINGS SALE:"

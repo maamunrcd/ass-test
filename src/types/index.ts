@@ -14,14 +14,6 @@ interface NavItem {
 }
 
 // Prop types for components
-interface LayoutProps {
-    children: React.ReactNode;
-}
-
-interface FeatureItemProps extends Feature {
-    key: number;
-}
-
 interface NavLinkProps extends NavItem {
     className?: string;
 }

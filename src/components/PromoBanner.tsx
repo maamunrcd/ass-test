@@ -1,5 +1,6 @@
-import { PromoBannerProps } from '@/types/components/promo-banner';
 import React from 'react';
+
+import { PromoBannerProps } from '@/types/components/promo-banner';
 
 const PromoBanner: React.FC<PromoBannerProps> = ({
   title,
@@ -7,13 +8,13 @@ const PromoBanner: React.FC<PromoBannerProps> = ({
   message,
   icon = '🚀',
   className = '',
-  onClick,
 }) => {
+
   return (
     <div
       className={`${className} promo flex items-center justify-center hover:shadow-lg gap-2.5 transition-shadow duration-300 cursor-pointer md:p-2.5 p-5`}
-      onClick={onClick}
-      role="banner"
+      role="button"
+      tabIndex={0}
     >
       <div className="promo-title flex gap-2.5 text-center md:text-left">
         {icon && <span className="text-2xl pr-2">{icon}</span>}

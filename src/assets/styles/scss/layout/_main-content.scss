@@ -15,7 +15,7 @@
 }
 
 .feature-action {
-  button {
+  a {
     padding: 8px 40px;
     gap: 10px;
     width: 313px;
@@ -27,6 +27,7 @@
     font-size: 20px;
     line-height: 24px;
     font-family: var(--font-figtree);
+    text-align: center;
 
     color: #FFFFFF;
     &:hover {
