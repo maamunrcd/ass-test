@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.github/
+/deployment/
+out/
+public/
+scripts/
+
+# Ignore all files in src/generated-api
+src/generated-api/
+
+CHANGELOG.md

@@ -1,0 +1,42 @@
+.hero {
+  &-content {
+    &-subtitle {
+      text-shadow: 0px 0.25rem 0.25rem #FC004E;
+    }
+  }
+}
+
+.arrow-icon {
+  width: 0.6875rem;
+  height: 0.375rem;
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  transform: rotate(90deg);
+}
+
+.feature-action {
+  button {
+    padding: 8px 40px;
+    gap: 10px;
+    width: 313px;
+    height: 40px;
+    background: #FC004E;
+    box-shadow: 2px 2px 10px #00E7F9;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: var(--font-figtree);
+
+    color: #FFFFFF;
+    &:hover {
+      background-color: #D5003A;
+    }
+  }
+}
+footer {
+  color: #ABABAB;
+  .copyright {
+    font-size: 0.625rem;
+  }
+}

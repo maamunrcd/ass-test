@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Global styles
+ * These base styles should be loaded first for global settings and resets.
+ */
+@import '@/assets/styles/css/globals.css';
+@import 'fonts';
+@import 'layout';
+@import 'arrow';
+
+body {
+    background-color: var(--background);
+}
