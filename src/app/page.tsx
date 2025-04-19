@@ -1,6 +1,6 @@
-import MainContent from '@/components/MainContent';
-
 import { Metadata } from 'next';
+
+import MainContent from '@/components/MainContent';
 
 export const metadata: Metadata = {
   title: 'Fametonic - Grow Your Social Media Presence',

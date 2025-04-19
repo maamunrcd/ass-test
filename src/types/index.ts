@@ -8,12 +8,9 @@ export interface FeaturesListProps {
     features: Feature[];
 }
 
-interface NavItem {
-    href: string;
-    label: string;
-}
 
-// Prop types for components
-interface NavLinkProps extends NavItem {
-    className?: string;
-}
+export interface HeroSectionProps {
+    title: string;
+    subtitle: string;
+    features: Feature[];
+  }

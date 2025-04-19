@@ -1,13 +1,10 @@
 import Link from 'next/link';
-import { Feature } from '@/types';
+
+import { HeroSectionProps } from '@/types';
+
 import FeaturesList from '@/components/FeaturesList';
 import Footer from '@/components/Footer';
 
-interface HeroSectionProps {
-  title: string;
-  subtitle: string;
-  features: Feature[];
-}
 
 const HeroSection: React.FC<HeroSectionProps> = ({ title, subtitle, features }) => (
   <div className="hero-content flex flex-col py-0 md:py-16 z-20 w-full md:w-[55%] md:order-1 order-1 -mt-[50px] md:mt-0">
@@ -21,10 +18,10 @@ const HeroSection: React.FC<HeroSectionProps> = ({ title, subtitle, features }) 
       <FeaturesList features={features} />
     </div>
     <div className="feature-action flex md:inline-flex flex-col gap-2.5 justify-center items-center md:items-start py-5 order-3 md:order-2">
-      <div className='flex flex-col items-center'>
+      <div className='flex flex-col items-center w-full md:w-auto'>
       <Link
         href="/quiz"
-        className="text-white font-medium rounded-lg text-xl uppercase px-11 py-2 h-[40px]"
+        className="bg-primary hover:bg-primary-hover shadow-[2px_2px_10px_#00E7F9] rounded-[10px] font-bold text-xl leading-6 text-white text-center py-2 px-10 h-[40px] w-full md:w-[313px] font-figtree"
       >
         Get Started
         <span className="arrow relative inline-block pl-2.5" />
@@ -36,4 +33,4 @@ const HeroSection: React.FC<HeroSectionProps> = ({ title, subtitle, features }) 
   </div>
 );
 
-export default HeroSection; 
+export default HeroSection;

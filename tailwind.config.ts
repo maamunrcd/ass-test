@@ -49,7 +49,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: 'var(--primary)',
+        primary: '#FC004E',
+        'primary-hover': '#D5003A',
         secondary: 'var(--secondary)',
         ternary: 'var(--ternary)',
         background: 'var(--background)',

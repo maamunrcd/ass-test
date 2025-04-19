@@ -18,9 +18,9 @@ const PromoBanner: React.FC<PromoBannerProps> = ({
     >
       <div className="promo-title flex gap-2.5 text-center md:text-left">
         {icon && <span className="text-2xl pr-2">{icon}</span>}
-        <h3 className="font-extrabold text-secondary md:text-xl lg:text-2xl">
+        <h3 className="font-extrabold md:text-xl lg:text-2xl text-secondary">
           {title}
-          <span className="text-primary font-bold ml-2.5">{discount}— {message}</span>
+          <span className="text-white font-bold ml-2.5">{discount}— {message}</span>
         </h3>
       </div>
     </div>
